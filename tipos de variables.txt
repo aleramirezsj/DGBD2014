@@ -1,0 +1,19 @@
+bool= variable lógica que puede valer 
+       verdadero o falso (true o false)
+byte= pueder un byte, un valor entero de
+        0 a 255
+sbyte= puede guardar un byte, pero con            signo -128 hasta 127
+char= puede guardar un caracter  de tipo
+          Unicode
+decimal= guarda un valor numérico con               decimales
+int= valor numérico entero con signo (32 bits)  -2.147.483.648 hasta 2.147.483.647
+uint= valor numérico entero sin signo
+         0 hasta 4.294.967.295
+long= guarda valores numéricos enteros con signo usando 64 bits
+ulong=guarda valores numéricos enteros
+sin signo usando 64 bits
+short=guarda valores numéricos enteros con signo usando 16 bits 
+(-32.768 a 32.767)
+ushort=guarda valores numéricos enteros sin signo usando 16 bits (0 - 65536)
+string=guarda cadenas de caracteres
+float=guarda valores numéricos con decimales usando 32 bits
