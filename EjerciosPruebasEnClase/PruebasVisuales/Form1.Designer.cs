@@ -43,6 +43,10 @@
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirDelSistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnTest = new System.Windows.Forms.Button();
+            this.abrirArchivoDeTextoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rtbTextoDocumento = new System.Windows.Forms.RichTextBox();
+            this.ofdAbrirArchivo = new System.Windows.Forms.OpenFileDialog();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,7 +59,7 @@
             this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(391, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(437, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -64,7 +68,8 @@
             this.principalToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cargaDeAlumnosToolStripMenuItem,
             this.cargaDeMateriasToolStripMenuItem,
-            this.cargaDeCarrerasToolStripMenuItem});
+            this.cargaDeCarrerasToolStripMenuItem,
+            this.abrirArchivoDeTextoToolStripMenuItem});
             this.principalToolStripMenuItem.Name = "principalToolStripMenuItem";
             this.principalToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.principalToolStripMenuItem.Text = "Principal";
@@ -72,19 +77,19 @@
             // cargaDeAlumnosToolStripMenuItem
             // 
             this.cargaDeAlumnosToolStripMenuItem.Name = "cargaDeAlumnosToolStripMenuItem";
-            this.cargaDeAlumnosToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.cargaDeAlumnosToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.cargaDeAlumnosToolStripMenuItem.Text = "Carga de alumnos";
             // 
             // cargaDeMateriasToolStripMenuItem
             // 
             this.cargaDeMateriasToolStripMenuItem.Name = "cargaDeMateriasToolStripMenuItem";
-            this.cargaDeMateriasToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.cargaDeMateriasToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.cargaDeMateriasToolStripMenuItem.Text = "Carga de materias";
             // 
             // cargaDeCarrerasToolStripMenuItem
             // 
             this.cargaDeCarrerasToolStripMenuItem.Name = "cargaDeCarrerasToolStripMenuItem";
-            this.cargaDeCarrerasToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.cargaDeCarrerasToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.cargaDeCarrerasToolStripMenuItem.Text = "Carga de carreras";
             // 
             // mantenimientoToolStripMenuItem
@@ -159,18 +164,52 @@
             this.acercaDeToolStripMenuItem.Text = "Acerca de...";
             this.acercaDeToolStripMenuItem.Click += new System.EventHandler(this.acercaDeToolStripMenuItem_Click);
             // 
+            // btnTest
+            // 
+            this.btnTest.Location = new System.Drawing.Point(290, 0);
+            this.btnTest.Name = "btnTest";
+            this.btnTest.Size = new System.Drawing.Size(127, 24);
+            this.btnTest.TabIndex = 1;
+            this.btnTest.Text = "Test de alcoholemia";
+            this.btnTest.UseVisualStyleBackColor = true;
+            this.btnTest.Click += new System.EventHandler(this.btnTest_Click);
+            this.btnTest.MouseEnter += new System.EventHandler(this.btnTest_MouseEnter);
+            // 
+            // abrirArchivoDeTextoToolStripMenuItem
+            // 
+            this.abrirArchivoDeTextoToolStripMenuItem.Name = "abrirArchivoDeTextoToolStripMenuItem";
+            this.abrirArchivoDeTextoToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.abrirArchivoDeTextoToolStripMenuItem.Text = "Abrir archivo de texto";
+            this.abrirArchivoDeTextoToolStripMenuItem.Click += new System.EventHandler(this.abrirArchivoDeTextoToolStripMenuItem_Click);
+            // 
+            // rtbTextoDocumento
+            // 
+            this.rtbTextoDocumento.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rtbTextoDocumento.Location = new System.Drawing.Point(0, 24);
+            this.rtbTextoDocumento.Name = "rtbTextoDocumento";
+            this.rtbTextoDocumento.Size = new System.Drawing.Size(437, 249);
+            this.rtbTextoDocumento.TabIndex = 2;
+            this.rtbTextoDocumento.Text = "";
+            // 
+            // ofdAbrirArchivo
+            // 
+            this.ofdAbrirArchivo.FileName = "openFileDialog1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(391, 262);
+            this.ClientSize = new System.Drawing.Size(437, 273);
+            this.Controls.Add(this.btnTest);
+            this.Controls.Add(this.rtbTextoDocumento);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Sistema de Alumnos ";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -195,6 +234,10 @@
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirDelSistemaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
+        private System.Windows.Forms.Button btnTest;
+        private System.Windows.Forms.ToolStripMenuItem abrirArchivoDeTextoToolStripMenuItem;
+        private System.Windows.Forms.RichTextBox rtbTextoDocumento;
+        private System.Windows.Forms.OpenFileDialog ofdAbrirArchivo;
     }
 }
 
