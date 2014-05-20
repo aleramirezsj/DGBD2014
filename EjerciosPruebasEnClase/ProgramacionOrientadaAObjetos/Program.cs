@@ -14,7 +14,7 @@ namespace ProgramacionOrientadaAObjetos
             Persona mipersona = new Persona();
             int opcion = 0;
             //Muestro el menú
-            while (opcion < 4)
+            while (opcion != 4)
             {
                 Console.Clear();
                 Console.WriteLine("MENU DE OPCIONES");
@@ -23,7 +23,15 @@ namespace ProgramacionOrientadaAObjetos
                 Console.WriteLine("3- Imprimir Datos en un renglón");
                 Console.WriteLine("4- Salir");
                 Console.Write("Ingrese su opción:");
-                opcion = Convert.ToInt32(Console.ReadLine());
+                try
+                {
+                    opcion = Convert.ToInt32(Console.ReadLine());
+                }
+                catch
+                {
+                    Console.WriteLine("Error... Ingrese una opción correcta");
+                    Console.ReadKey();
+                }
                 switch (opcion)
                 {
                     case 1:
@@ -36,6 +44,10 @@ namespace ProgramacionOrientadaAObjetos
                         mipersona.ImprimirRenglon();
                         break;
                     case 4:
+                        break;
+                    default:
+                        Console.WriteLine("Error... Ingrese una opción correcta");
+                        Console.ReadKey();
                         break;
                 }
             }
