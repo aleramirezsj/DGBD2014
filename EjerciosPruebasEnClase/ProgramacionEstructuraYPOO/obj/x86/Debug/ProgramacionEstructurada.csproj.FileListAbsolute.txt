@@ -1,0 +1,5 @@
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\ProgramacionEstructuraYPOO\bin\Debug\ProgramacionEstructuraYPOO.exe
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\ProgramacionEstructuraYPOO\bin\Debug\ProgramacionEstructuraYPOO.pdb
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\ProgramacionEstructuraYPOO\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\ProgramacionEstructuraYPOO\obj\x86\Debug\ProgramacionEstructuraYPOO.exe
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\ProgramacionEstructuraYPOO\obj\x86\Debug\ProgramacionEstructuraYPOO.pdb

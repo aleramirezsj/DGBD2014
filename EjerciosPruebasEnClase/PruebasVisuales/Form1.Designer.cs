@@ -33,6 +33,7 @@
             this.cargaDeAlumnosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cargaDeMateriasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cargaDeCarrerasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.abrirArchivoDeTextoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mantenimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.copiaDeSeguridadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.parámetrosDelSistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -44,9 +45,9 @@
             this.salirDelSistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnTest = new System.Windows.Forms.Button();
-            this.abrirArchivoDeTextoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rtbTextoDocumento = new System.Windows.Forms.RichTextBox();
             this.ofdAbrirArchivo = new System.Windows.Forms.OpenFileDialog();
+            this.sfdGuardarArchivo = new System.Windows.Forms.SaveFileDialog();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -91,6 +92,13 @@
             this.cargaDeCarrerasToolStripMenuItem.Name = "cargaDeCarrerasToolStripMenuItem";
             this.cargaDeCarrerasToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.cargaDeCarrerasToolStripMenuItem.Text = "Carga de carreras";
+            // 
+            // abrirArchivoDeTextoToolStripMenuItem
+            // 
+            this.abrirArchivoDeTextoToolStripMenuItem.Name = "abrirArchivoDeTextoToolStripMenuItem";
+            this.abrirArchivoDeTextoToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.abrirArchivoDeTextoToolStripMenuItem.Text = "Abrir archivo de texto";
+            this.abrirArchivoDeTextoToolStripMenuItem.Click += new System.EventHandler(this.abrirArchivoDeTextoToolStripMenuItem_Click);
             // 
             // mantenimientoToolStripMenuItem
             // 
@@ -175,13 +183,6 @@
             this.btnTest.Click += new System.EventHandler(this.btnTest_Click);
             this.btnTest.MouseEnter += new System.EventHandler(this.btnTest_MouseEnter);
             // 
-            // abrirArchivoDeTextoToolStripMenuItem
-            // 
-            this.abrirArchivoDeTextoToolStripMenuItem.Name = "abrirArchivoDeTextoToolStripMenuItem";
-            this.abrirArchivoDeTextoToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
-            this.abrirArchivoDeTextoToolStripMenuItem.Text = "Abrir archivo de texto";
-            this.abrirArchivoDeTextoToolStripMenuItem.Click += new System.EventHandler(this.abrirArchivoDeTextoToolStripMenuItem_Click);
-            // 
             // rtbTextoDocumento
             // 
             this.rtbTextoDocumento.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -238,6 +239,7 @@
         private System.Windows.Forms.ToolStripMenuItem abrirArchivoDeTextoToolStripMenuItem;
         private System.Windows.Forms.RichTextBox rtbTextoDocumento;
         private System.Windows.Forms.OpenFileDialog ofdAbrirArchivo;
+        private System.Windows.Forms.SaveFileDialog sfdGuardarArchivo;
     }
 }
 

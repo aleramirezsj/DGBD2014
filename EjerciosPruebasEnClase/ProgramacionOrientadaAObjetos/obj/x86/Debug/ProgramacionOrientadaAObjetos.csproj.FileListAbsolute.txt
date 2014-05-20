@@ -1,0 +1,5 @@
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\ProgramacionOrientadaAObjetos\bin\Debug\ProgramacionOrientadaAObjetos.exe
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\ProgramacionOrientadaAObjetos\bin\Debug\ProgramacionOrientadaAObjetos.pdb
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\ProgramacionOrientadaAObjetos\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\ProgramacionOrientadaAObjetos\obj\x86\Debug\ProgramacionOrientadaAObjetos.exe
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\ProgramacionOrientadaAObjetos\obj\x86\Debug\ProgramacionOrientadaAObjetos.pdb

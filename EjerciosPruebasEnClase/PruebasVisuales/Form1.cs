@@ -27,7 +27,7 @@ namespace PruebasVisuales
             string mensaje = "Sistema realizado por Rubén Alejandro Ramirez\n";
                    mensaje += "en la cátedra Diseño y Gestión de Bases de datos\n";
                    mensaje += "año 2014\n";
-                   mensaje += "Instituto Superior de Profesorado Nº20";
+                   mensaje += "Instituto Superior de Profesorado Nº20 \"Sdor Nestor J. Zamaro\" ";
             string titulo = "Gestión Alejandro";
                    
             MessageBox.Show(mensaje,titulo,MessageBoxButtons.OK,MessageBoxIcon.Information);
