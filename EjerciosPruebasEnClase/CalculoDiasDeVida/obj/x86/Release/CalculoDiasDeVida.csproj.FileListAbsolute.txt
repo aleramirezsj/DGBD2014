@@ -1,0 +1,5 @@
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\CalculoDiasDeVida\bin\Release\CalculoDiasDeVida.exe
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\CalculoDiasDeVida\bin\Release\CalculoDiasDeVida.pdb
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\CalculoDiasDeVida\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\CalculoDiasDeVida\obj\x86\Release\CalculoDiasDeVida.exe
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\CalculoDiasDeVida\obj\x86\Release\CalculoDiasDeVida.pdb

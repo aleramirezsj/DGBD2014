@@ -1,0 +1,5 @@
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\PromedioDeLluvia\bin\Release\PromedioDeLluvia.exe
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\PromedioDeLluvia\bin\Release\PromedioDeLluvia.pdb
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\PromedioDeLluvia\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\PromedioDeLluvia\obj\x86\Release\PromedioDeLluvia.exe
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\PromedioDeLluvia\obj\x86\Release\PromedioDeLluvia.pdb

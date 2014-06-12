@@ -28,82 +28,151 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.principalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cargaDeAlumnosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cargaDeMateriasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cargaDeCarrerasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mantenimientoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.copiaDeSeguridadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.parámetrosDelSistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.impresiónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listadoDeAlumnosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listadoDeMateriasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listadoDeCarrerasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirDelSistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // menuStrip1
             // 
-            this.button1.Location = new System.Drawing.Point(111, 65);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.principalToolStripMenuItem,
+            this.mantenimientoToolStripMenuItem,
+            this.impresiónToolStripMenuItem,
+            this.salirToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(391, 24);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
             // 
-            // checkBox1
+            // principalToolStripMenuItem
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(144, 109);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.principalToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cargaDeAlumnosToolStripMenuItem,
+            this.cargaDeMateriasToolStripMenuItem,
+            this.cargaDeCarrerasToolStripMenuItem});
+            this.principalToolStripMenuItem.Name = "principalToolStripMenuItem";
+            this.principalToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.principalToolStripMenuItem.Text = "Principal";
             // 
-            // checkedListBox1
+            // cargaDeAlumnosToolStripMenuItem
             // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(18, 109);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(120, 94);
-            this.checkedListBox1.TabIndex = 2;
+            this.cargaDeAlumnosToolStripMenuItem.Name = "cargaDeAlumnosToolStripMenuItem";
+            this.cargaDeAlumnosToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.cargaDeAlumnosToolStripMenuItem.Text = "Carga de alumnos";
             // 
-            // comboBox1
+            // cargaDeMateriasToolStripMenuItem
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(145, 133);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 3;
+            this.cargaDeMateriasToolStripMenuItem.Name = "cargaDeMateriasToolStripMenuItem";
+            this.cargaDeMateriasToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.cargaDeMateriasToolStripMenuItem.Text = "Carga de materias";
             // 
-            // dateTimePicker1
+            // cargaDeCarrerasToolStripMenuItem
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(33, 40);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 4;
+            this.cargaDeCarrerasToolStripMenuItem.Name = "cargaDeCarrerasToolStripMenuItem";
+            this.cargaDeCarrerasToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.cargaDeCarrerasToolStripMenuItem.Text = "Carga de carreras";
             // 
-            // pictureBox1
+            // mantenimientoToolStripMenuItem
             // 
-            this.pictureBox1.Image = global::PruebasVisuales.Properties.Resources._1;
-            this.pictureBox1.Location = new System.Drawing.Point(158, 161);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(75, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
+            this.mantenimientoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.copiaDeSeguridadToolStripMenuItem,
+            this.parámetrosDelSistemaToolStripMenuItem});
+            this.mantenimientoToolStripMenuItem.Name = "mantenimientoToolStripMenuItem";
+            this.mantenimientoToolStripMenuItem.Size = new System.Drawing.Size(101, 20);
+            this.mantenimientoToolStripMenuItem.Text = "Mantenimiento";
+            // 
+            // copiaDeSeguridadToolStripMenuItem
+            // 
+            this.copiaDeSeguridadToolStripMenuItem.Name = "copiaDeSeguridadToolStripMenuItem";
+            this.copiaDeSeguridadToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.copiaDeSeguridadToolStripMenuItem.Text = "Copia de seguridad";
+            // 
+            // parámetrosDelSistemaToolStripMenuItem
+            // 
+            this.parámetrosDelSistemaToolStripMenuItem.Name = "parámetrosDelSistemaToolStripMenuItem";
+            this.parámetrosDelSistemaToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.parámetrosDelSistemaToolStripMenuItem.Text = "Parámetros del sistema";
+            // 
+            // impresiónToolStripMenuItem
+            // 
+            this.impresiónToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.listadoDeAlumnosToolStripMenuItem,
+            this.listadoDeMateriasToolStripMenuItem,
+            this.listadoDeCarrerasToolStripMenuItem});
+            this.impresiónToolStripMenuItem.Name = "impresiónToolStripMenuItem";
+            this.impresiónToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
+            this.impresiónToolStripMenuItem.Text = "Impresión";
+            // 
+            // listadoDeAlumnosToolStripMenuItem
+            // 
+            this.listadoDeAlumnosToolStripMenuItem.Name = "listadoDeAlumnosToolStripMenuItem";
+            this.listadoDeAlumnosToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.listadoDeAlumnosToolStripMenuItem.Text = "Listado de alumnos";
+            // 
+            // listadoDeMateriasToolStripMenuItem
+            // 
+            this.listadoDeMateriasToolStripMenuItem.Name = "listadoDeMateriasToolStripMenuItem";
+            this.listadoDeMateriasToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.listadoDeMateriasToolStripMenuItem.Text = "Listado de materias";
+            // 
+            // listadoDeCarrerasToolStripMenuItem
+            // 
+            this.listadoDeCarrerasToolStripMenuItem.Name = "listadoDeCarrerasToolStripMenuItem";
+            this.listadoDeCarrerasToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.listadoDeCarrerasToolStripMenuItem.Text = "Listado de carreras";
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.salirDelSistemaToolStripMenuItem,
+            this.acercaDeToolStripMenuItem});
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
+            this.salirToolStripMenuItem.Text = "Salir";
+            // 
+            // salirDelSistemaToolStripMenuItem
+            // 
+            this.salirDelSistemaToolStripMenuItem.Name = "salirDelSistemaToolStripMenuItem";
+            this.salirDelSistemaToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.salirDelSistemaToolStripMenuItem.Text = "Salir del sistema";
+            this.salirDelSistemaToolStripMenuItem.Click += new System.EventHandler(this.salirDelSistemaToolStripMenuItem_Click);
+            // 
+            // acercaDeToolStripMenuItem
+            // 
+            this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.acercaDeToolStripMenuItem.Text = "Acerca de...";
+            this.acercaDeToolStripMenuItem.Click += new System.EventHandler(this.acercaDeToolStripMenuItem_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.checkedListBox1);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.button1);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(391, 262);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
+            this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Opacity = 0.7D;
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Text = "Sistema de Alumnos ";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -111,12 +180,21 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem principalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cargaDeAlumnosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cargaDeMateriasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cargaDeCarrerasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mantenimientoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem copiaDeSeguridadToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem parámetrosDelSistemaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem impresiónToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listadoDeAlumnosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listadoDeMateriasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listadoDeCarrerasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem salirDelSistemaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
     }
 }
 

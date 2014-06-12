@@ -1,0 +1,5 @@
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\HolaMundo\bin\Release\HolaMundo.exe
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\HolaMundo\bin\Release\HolaMundo.pdb
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\HolaMundo\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\HolaMundo\obj\x86\Release\HolaMundo.exe
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\HolaMundo\obj\x86\Release\HolaMundo.pdb
