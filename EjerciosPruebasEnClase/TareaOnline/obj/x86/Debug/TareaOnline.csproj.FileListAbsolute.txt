@@ -1,0 +1,5 @@
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\TareaOnline\bin\Debug\TareaOnline.exe
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\TareaOnline\bin\Debug\TareaOnline.pdb
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\TareaOnline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\TareaOnline\obj\x86\Debug\TareaOnline.exe
+C:\Rubén Alejandro Ramirez\DGBD 2014\EjerciosPruebasEnClase\TareaOnline\obj\x86\Debug\TareaOnline.pdb

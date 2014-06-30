@@ -22,48 +22,11 @@ namespace TareaOnline
  
  
             //Se ingresan los valores de cada matriz (A y B)
- 
- 
-            //Se ingresan los valores de la matriz A           
-            Console.WriteLine ("Ingrese los valores de la matriz A de 2x2:");
- 
- 
-            Console.SetCursorPosition (3,3);     
-            A[0,0]= Convert.ToInt32(Console.ReadLine());
- 
- 
-            Console.SetCursorPosition (6,3);           
-            A[0,1]= Convert.ToInt32(Console.ReadLine());
- 
- 
-            Console.SetCursorPosition (3,5);           
-            A[1,0]= Convert.ToInt32(Console.ReadLine());
- 
- 
-            Console.SetCursorPosition (6,5);           
-            A[1,1]= Convert.ToInt32(Console.ReadLine());
- 
- 
-            //Se ingresan los valores de la matriz B         
-             Console.WriteLine ("Ingrese los valores de la matriz B de 2x2:");
- 
- 
-            Console.SetCursorPosition (3,7);           
-            B[0, 0] = Convert.ToInt32(Console.ReadLine());
- 
- 
-            Console.SetCursorPosition(6,7);           
-            B[0,1]=Convert.ToInt32(Console.ReadLine());
- 
- 
-            Console.SetCursorPosition(3,9);           
-            B[1,0]=Convert.ToInt32(Console.ReadLine());
- 
- 
-            Console.SetCursorPosition(6,9);           
-            B[1,1]=Convert.ToInt32(Console.ReadLine());
- 
- 
+            
+            CargaMatriz(A, 3, 3,"A");
+
+            CargaMatriz(B, 3, 7,"B");
+            
             //Se suman las dos matrices A+B         
              Console.WriteLine("La suma de la matriz A y B es:");           
              Console.WriteLine("");         
@@ -81,6 +44,23 @@ namespace TareaOnline
  
  
             Console.ReadKey();     
-        } 
-    }
-}
+        }//main 
+        
+        static void CargaMatriz(int[,] matriz,int left, int top,string nombreMatriz)
+        {
+            //Se ingresan los valores de la matriz           
+            Console.WriteLine("Ingrese los valores de la matriz "+nombreMatriz+" de 2x2:");
+
+            for (int i = 0; i < 2; i++)
+            {
+                for (int z = 0; z < 2; z++)
+                {
+                    Console.SetCursorPosition(left+(3*z), top+(2*i));
+                    matriz[i, z] = Convert.ToInt32(Console.ReadLine());
+                }
+            }
+        }//CargaMatriz
+    }//class
+}//namespace
+
+

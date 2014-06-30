@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramacionEstructurada", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramacionOrientadaAObjetos", "ProgramacionOrientadaAObjetos\ProgramacionOrientadaAObjetos.csproj", "{394B3B33-BCD9-4C95-B7ED-15392222958D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TareaOnline", "TareaOnline\TareaOnline.csproj", "{1BFA52B2-EBEC-4FD7-898A-C56896FA4248}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -49,6 +51,10 @@ Global
 		{394B3B33-BCD9-4C95-B7ED-15392222958D}.Debug|x86.Build.0 = Debug|x86
 		{394B3B33-BCD9-4C95-B7ED-15392222958D}.Release|x86.ActiveCfg = Release|x86
 		{394B3B33-BCD9-4C95-B7ED-15392222958D}.Release|x86.Build.0 = Release|x86
+		{1BFA52B2-EBEC-4FD7-898A-C56896FA4248}.Debug|x86.ActiveCfg = Debug|x86
+		{1BFA52B2-EBEC-4FD7-898A-C56896FA4248}.Debug|x86.Build.0 = Debug|x86
+		{1BFA52B2-EBEC-4FD7-898A-C56896FA4248}.Release|x86.ActiveCfg = Release|x86
+		{1BFA52B2-EBEC-4FD7-898A-C56896FA4248}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
